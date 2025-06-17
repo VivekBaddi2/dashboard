@@ -4,30 +4,30 @@ const cardsData = [
   {
     id: 1,
     thumbnail: "/assets/chatbot-thumbnail.png",
-    description: 'This is the description for card 1.',
+    description: 'A powerful LLM-based chatbot that understands and responds to your queries with natural, human-like conversations.',
     title: 'SuperAI ChatBot',
-    url: 'https://example.com/page1',
+    url: 'https://superai-self.vercel.app/',
   },
   {
     id: 2,
     thumbnail: '/assets/imagen-thumbnail.png',
-    description: 'This is the description for card 2.',
+    description: 'An advanced AI-powered image generator that creates stunning visuals from your text prompts.',
     title: 'SuperAI Imagen',
-    url: 'https://example.com/page2',
+    url: 'https://superai-imagen.vercel.app/',
   },
   {
     id: 3,
     thumbnail: '/assets/BG-thumbnail.png',
-    description: 'This is the description for card 3.',
+    description: 'A smart background remover tool that instantly isolates subjects and removes backgrounds from images.',
     title: 'SuperAI BG Remover',
-    url: 'https://example.com/page3',
+    url: 'https://superai-bg-removal.vercel.app/',
   },
   {
     id: 4,
     thumbnail: '/assets/translator-thumbnail.png',
-    description: 'This is the description for card 4.',
+    description: 'An efficient tool that transcribes audio and translates it into multiple languages with high accuracy.',
     title: 'SuperAI sound transcript and translate',
-    url: 'https://example.com/page4',
+    url: 'https://superai-voice-translator-transcriptor.onrender.com/',
   },
 ];
 
