@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fluid animated gradient border */
+@keyframes gradient-border {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animated-border {
+  position: relative;
+  border-radius: 0.5rem; /* match rounded-lg */
+  padding: 1px; /* space for border */
+  background: linear-gradient(270deg, #5db3e9, #5d90e9, #7873f5);
+  background-size: 800% 800%;
+  animation: gradient-border 4s ease infinite;
+}
+
+.animated-border > .card-content {
+  background: #070e1c;  
+  border-radius: 0.5rem;
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+}
